@@ -4,20 +4,166 @@
 	<title>Home Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="./scss/_home.scss">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./dist/css/app.css">
 </head>
 <body>
+	<!-- header ribbon -->
+	<section class="header-ribbon">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<p>GARULIA NOAPARA BI LN, SHYAMNAGAR</p>
+				</div>
+				<div class="com-md-7">
+					<p>OPENING HOUR : 9:30AM-5:30PM  201-784-3030</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- nav bar -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		  <img src="./src/image/t2s-logo.png" alt="">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#"><span class="menu-item">HOME</span> <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><span class="menu-item">ABOUT US</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><span class="menu-item">OUR WORK</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><span class="menu-item">BLOG</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><span class="menu-item">CONTACT</span></a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <button class="nav-btn" type="submit">Book Now</button>
+		    </form>
+		  </div>
+		</nav>
+	</header>
+
+	<!-- banner -->
+	<section class="banner">
+		<div class="container">
+			<div class="banner-img row">
+				<!-- banner -->
+				<div class="banner-text col-md-6 text-white">
+					<h1><b>Digital Services<br>On Demand</b></h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua. </p>
+					<button class="bnr-btn">Dummy Button</button>
+				</div>
+
+				<!--banner card -->
+				<div class="banner-card col-md-5">
+					<div class="banner-card-box card bg-white" style="width: 70%">
+				  <div class="card-body">
+				    <h5 class="banner-card-header card-title"><span>WHATS SERVICE</span> ARE YOU LOOKING FOR?</h5>
+				    <!--Accordion wrapper-->
+				    <div class="box">
+						<div class="card-collaps-offer-container">
+							<div class="card-collaps-offer">
+                                <p class="h3 card-collaps-title-line" data-toggle="collapse" data-target="#q1">New Website Development</p>
+                                <div class="card-collaps-content collapse" id="q1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                </div>
+                            </div>
+                            <div class="card-collaps-offer">
+                                <p class="h3 card-collaps-title-line" data-toggle="collapse" data-target="#q2">New Website Development</p>
+                                <div class="card-collaps-content collapse" id="q2">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                </div>
+                            </div>
+                            <div class="card-collaps-offer">
+                                <p class="h3 card-collaps-title-line" data-toggle="collapse" data-target="#q3">New Website Development</p>
+                                <div class="card-collaps-content collapse" id="q3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                </div>
+                            </div>
+                            <div class="card-collaps-offer">
+                                <p class="h3 card-collaps-title-line" data-toggle="collapse" data-target="#q4">New Website Development</p>
+                                <div class="card-collaps-content collapse" id="q4">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                </div>
+                            </div>
+                            <div class="card-collaps-offer">
+                                <p class="h3 card-collaps-title-line" data-toggle="collapse" data-target="#q5">New Website Development</p>
+                                <div class="card-collaps-content collapse" id="q5">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                </div>
+                            </div>
+						</div>
+					</div>
+					<!-- Accordion wrapper -->
+				   	<h5 class="banner-card-bottom-text">ANY OTHER CUSTOM SERVICE ?</h5>
+					 <button type="submit" class="form-btn w-100">CONTACT US</button>
+				  </div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Two Service Section-->
+	<section class="two-service">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-12 col-md-6">
+					<img src="./src/image/about-image.png" alt="" class="img-fluid">
+				</div>
+				<div class="col-12 col-md-6 text-left">
+					<p class="super-header">about company—</p>
+					<h1>One Soloution<br>Ipsum Dummy Text</h1>
+					<br>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="row w-100">
+						<div class="col-md-4">
+							<p><b>Happy Client</b><br>proident, sunt in</p>
+						</div>
+						<div class="col-md-4">
+							<p><b>Happy Client</b><br>proident, sunt in</p>
+						</div>
+					</div>
+					<div class="row w-100">
+						<div class="col-md-4">
+							<p><b>Happy Client</b><br>proident, sunt in</p>
+						</div>
+						<div class="col-md-4">
+							<p><b>Happy Client</b><br>proident, sunt in</p>
+						</div>
+					</div>
+					<button class="two-service-learn-more">Learn More</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!-- Three Services dark Section -->
-	<section>
+	<section class="service-three">
 		<div class="container w-100">
-			<p class="orange-heading text-center text-capitalize">Lorem ipsum dolor</p>
-			<h3 class="blue-heading text-center text-capitalize">Why This Service Is Importent</h3>
-			<p class="grey-heading text-center mb-5">proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<br>
+			<p class="super-header text-center text-capitalize">-Lorem ipsum dolor-</p>
+			<h3 class="main-header text-center text-capitalize">Why This Service Is Importent</h3>
+			<br>
 			<div class="row mb-5">
 				<div class="col-12 col-md-4">
-					<div class="card" style="width: 18rem;">
+					<div class="three-service-card card">
 						<img class="card-img-top" src="./src/image/card1.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h2 class="text-center">Dummy Text Heading</h2>
@@ -26,16 +172,16 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4">
-					<div class="card" style="width: 18rem;">
+					<div class="three-service-card card">
 						<img class="card-img-top" src="./src/image/card2.jpg" alt="Card image cap">
-						<div class="card-body">
+						<div class="mid card-body">
 							<h2 class="text-center">Dummy Text Heading</h2>
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-4">
-					<div class="card" style="width: 18rem;">
+					<div class="three-service-card card">
 						<img class="card-img-top" src="./src/image/card3.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h2 class="text-center">Dummy Text Heading</h2>
@@ -46,12 +192,14 @@
 			</div>
 		</div>
 	</section>
+
 	<!-- All Services White Section -->
 	<section>
 		<div class="container w-100">
-			<p class="orange-heading text-center text-capitalize">Lorem ipsum dolor</p>
-			<h3 class="blue-heading text-center text-capitalize">Why This Service Is Importent</h3>
-			<p class="grey-heading text-center mb-5">proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<br>
+			<p class="super-header text-center text-capitalize">-Lorem ipsum dolor-</p>
+			<h3 class="main-header text-center text-capitalize">Why This Service Is Importent</h3>
+			<p class="content text-center mb-5">proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 			<!-- img-R -->
 			<div class="row mb-5">
 				<div class="col-12 col-md-6">
@@ -59,7 +207,7 @@
 				</div>
 				<div class="col-12 col-md-6">
 					<h1 class="subject-header mb-3"><img src="./src/image/logo1.jpg" alt=""> <b>VISION </b>STATEMENT</h1>
-					<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
+					<p class="content">proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum 
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div>
@@ -68,7 +216,7 @@
 			<div class="row mb-5">
 				<div class="col-12 col-md-6">
 					<h1 class="subject-header mb-3"><img src="./src/image/logo2.jpg" alt=""> <b>VISION </b>STATEMENT</h1>
-					<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
+					<p class="content">proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum 
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div>
@@ -83,7 +231,7 @@
 				</div>
 				<div class="col-12 col-md-6">
 					<h1 class="subject-header mb-3"><img src="./src/image/logo1.jpg" alt=""> <b>VISION </b>STATEMENT</h1>
-					<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
+					<p class="content">proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum 
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div>
@@ -92,7 +240,7 @@
 			<div class="row mb-5">
 				<div class="col-12 col-md-6">
 					<h1 class="subject-header mb-3"><img src="./src/image/logo2.jpg" alt=""> <b>VISION </b>STATEMENT</h1>
-					<p>proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
+					<p class="content">proident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia <br>
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum 
 					deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborumproident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div>
@@ -103,9 +251,647 @@
 		</div>
 	</section>
 
+	<!-- Related Services -->
+	<section class="related-service">
+		<div class="container w-100">
+			<br>
+			<h1 class="main-header text-center">Related Service</h1>
+			<p class="super-header text-center">-Dummy sub Heading-</p>
+			<!-- slider start -->
+			<div class="row mb-5">
+				<div class="col-md-12">
+					<div id="inam" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item col-md-12 active">
+								<div class="container">
+									<div class="row">
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img class="card-img-top" src="./src/image/card2.jpg" alt="Card image cap">
+												<div class="mid card-body">
+													<h2 class="text-center">Dummy Text Heading</h2>
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img class="card-img-top" src="./src/image/card2.jpg" alt="Card image cap">
+												<div class="mid card-body">
+													<h2 class="text-center">Dummy Text Heading</h2>
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img class="card-img-top" src="./src/image/card2.jpg" alt="Card image cap">
+												<div class="mid card-body">
+													<h2 class="text-center">Dummy Text Heading</h2>
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item col-md-12">
+								<div class="container">
+									<div class="row">
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img class="card-img-top" src="./src/image/card2.jpg" alt="Card image cap">
+												<div class="mid card-body">
+													<h2 class="text-center">Dummy Text Heading</h2>
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img class="card-img-top" src="./src/image/card2.jpg" alt="Card image cap">
+												<div class="mid card-body">
+													<h2 class="text-center">Dummy Text Heading</h2>
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-12 col-md-4">
+											<div class="card">
+												<img class="card-img-top" src="./src/image/card2.jpg" alt="Card image cap">
+												<div class="mid card-body">
+													<h2 class="text-center">Dummy Text Heading</h2>
+													<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#inam" class="arrow carousel-control-prev " data-slide="prev">
+							<span class="carousel-control-prev-icon "></span>
+						</a>
+						<a href="#inam" class="arrow carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- slider End -->
+			<br>
+			<!-- our expertise -->
+			<div class="row mb-5">
+				<div class="col-12 col-md-4">
+					<p class="super-header">-about company</p>
+					<h1 class="subject-header"><b>One Soloution<br>Ipsum Dummy Text</b></h1>
+					<br>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br>
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button class="learn-more">Learn More</button>
+				</div>
+				<div class="col-12 col-md-5">
+					<img src="./src/image/ourservice.jpg" alt="" class="img-fluid" >
+				</div>
+				<div class="col-md-3">
+					<img src="./src/image/ourservice2.jpg" alt="" class="img-fluid">
+				</div>
+			</div>
+			<!-- our expertise end -->
+			<!-- ask Question -->
+			<div class="ask-question row bg-white p-5 rounded">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<img src="./src/image/laptop.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-7">
+							<p class="super-header">Ask Question</p>
+							<h1 class="subject-header"><b>Have You Any Qustion</b></h1>
+							<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p><br>
+							<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p><br>
+							<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p><br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- happy Client  Header-->
+	<section class="happy-client">
+		<div class="container pt-5">
+			<div class="row mt-5 text-white">
+				<div class="col-md-6">
+				<p>Ask Question</p>
+				<h1>Happy Client Says About
+				<br> Our Company</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- slider -->
+	<section class="carousel slide happy-client" data-ride="carousel" id="postsCarousel">
+	    <div class="container">
+	    	<!-- arrow Button -->
+	        <div class="row">
+	            <div class="col-12 text-right mb-4">
+	                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+	                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="container p-t-0 m-t-2 carousel-inner pb-5">
+	        <div class="carousel-item active m-t-0"><div class="row">
+	            <div class="col-md-4">
+	                <div class="card">
+	                    <div class="card-img-top card-img-top-250">
+	                        <img class="img-fluid" src="img/29223655865_4b8b01989e.jpg" alt="Carousel 1">
+	                    </div>
+	                    <div class="card-block p-t-2">
+	                        <div class="card-header"><h3>flower1</h3></div>
+	                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-4">
+	                <div class="card">
+	                    <div class="card-img-top card-img-top-250">
+	                        <img class="img-fluid" src="img/35515203036_f8006072b8.jpg" alt="Carousel 1">
+	                    </div>
+	                    <div class="card-block p-t-2">
+	                        <div class="card-header"><h3>flower2</h3></div>
+	                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-md-4">
+	                <div class="card">
+	                    <div class="card-img-top card-img-top-250">
+	                        <img class="img-fluid" src="img/3d75927b210409af8582828c4049fcd0.jpg" alt="Carousel 1">
+	                    </div>
+	                    <div class="card-block p-t-2">
+	                        <div class="card-header"><h3>flower1</h3></div>
+	                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+	                    </div>
+	                </div>
+	            </div></div>
+	            
+	        </div>
+	        <div class="carousel-item m-t-0"><div class="row">
+	            <div class="col-md-4">
+	                <div class="card">
+	                    <div class="card-img-top card-img-top-250">
+	                        <img class="img-fluid" src="img/45590771a1ee18248a49bd399ef99bf1--posts.jpg" alt="Carousel 1">
+	                    </div>
+	                    <div class="card-block p-t-2">
+	                        <div class="card-header"><h3>flower1</h3></div>
+	                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+	                    </div>
+	                </div>
+	            </div>
+	           <div class="col-md-4">
+	                <div class="card">
+	                    <div class="card-img-top card-img-top-250">
+	                        <img class="img-fluid" src="img/917d7b69ebd58d0ef0e561cdcb016303--red-rose-bouquet-red-rose-flower.jpg" alt="Carousel 1">
+	                    </div>
+	                    <div class="card-block p-t-2">
+	                        <div class="card-header"><h3>flower1</h3></div>
+	                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+	                    </div>
+	                </div>
+	            </div>
+	           <div class="col-md-4">
+	                <div class="card">
+	                    <div class="card-img-top card-img-top-250">
+	                        <img class="img-fluid" src="img/29223655865_4b8b01989e.jpg" alt="Carousel 1">
+	                    </div>
+	                    <div class="card-block p-t-2">
+	                        <div class="card-header"><h3>flower1</h3></div>
+	                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi molestias veritatis, pariatur dolorem error non reprehenderit vero, id. Incidunt hic laudantium soluta recusandae, voluptas libero et! Ipsa, maiores, ratione.</div>
+	                    </div>
+	                </div>
+	            </div></div>
+	        </div>
+	    </div>
+	</section>
+
+	<!-- get in touch -->
+	<section class="get-in-touch p-5 w-100">
+		<div class="container">
+		<div class="row">
+			<!-- text -->
+			<div class="col-md-6">
+				<img src="./src/image/helmet.jpg" alt="">
+				<h1 class="text-white"><b>Lorem ipsum dolor</b></h1>
+				<p class="text-white">Lorem ipsum dolor sit amet, consectetuLorem ipsum dolor sit amet, consectetu</p>
+			</div>
+			<!-- form -->
+			<div class="get-in-touch-form col-md-5">
+				<div class="card bg-white">
+				  <div class="card-body">
+				    <h5 class="card-title">GET IN TOUCH</h5>
+				    <p>Lorem ipsum dolor sit amet, consectetu</p>
+				    <form>
+					  <div class="form-group">
+					    <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp" placeholder="Your Name" autocomplete="false" >
+					  </div>
+					  <div class="form-group">
+					    <input type="text" class="form-control" id="exampleInputText" placeholder="Phone Number" autocomplete="false" >
+					  </div>
+					  <div class="form-group">
+					    <div class="form-group">
+					    <select class="form-control" id="exampleFormControlSelect1">
+					      <option>Choose Service</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					  </div>
+					  </div>
+					  <div class="form-group">
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+					  </div>
+					  <button type="submit" class="form-btn w-100">Submit</button>
+					</form>
+				  </div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<!-- footer section -->
+	<section class="footer mt-5 mb-0 bg-white w-100">
+		<div class="container">
+			<div class="row">
+				<div class="com-md-2">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+				<div class="col-md-2 offset-1">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+				<div class="col-md-2 offset-1">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+				<div class="col-md-2 offset-1">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="com-md-2">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+				<div class="col-md-2 offset-1">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+				<div class="col-md-2 offset-1">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+				<div class="col-md-2 offset-1">
+					<h2>Think To Share</h2>
+					<p><b>Office Location</b></p>
+					<p>Graulia Noapara Bi Ln,<br>Shaymnagar,Kolkata-743133</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Copyright Section-->
+	<section>
+		<div class="copyright col-md-12">
+			<p class="text-white text-center">2020 @ Think To Share All Right Reserved</p>
+		</div>
+	</section>
+<!-- internal css -->
+<style>
+	.body
+	{
+		margin:0;
+		padding: 0;
+	}
+	/*nav bar css*/
+	.menu-item
+	{
+		color: #010b1e;
+	}
+	.menu-item:hover
+	{
+		color: #276db4;
+	}
+	.nav-btn
+	{
+		font-weight: 700;
+		font-size: 15px;
+		background-color: transparent;
+		padding: 10px 20px 10px 20px;
+		margin-left:10px;
+		border-radius: 25px;
+		border:2px solid #276db4;
+		text-align: center;
+		color: #276db4;
+		user-select: none;
+		cursor: pointer;
+		outline: none;
+		transition: transform .15s ease-in-out;
+	}
+	.nav-btn:hover
+	{
+		background-color: #276db4;
+		color:white;
+		text-decoration: none;
+	    transform: scale(1.1);
+	    box-shadow: 0 0 20px 0px #00000047;
+	}
+
+	/*Banner Css*/
+	.box
+	{
+		overflow-y: hidden;
+		width: 100%;
+		height: 100;
+	}
+	.card-collaps-offer
+	{
+	margin-bottom: 20px;
+	}
+	.card-collaps-title-line:hover
+	{
+	background: #276db4;
+	color: white;
+	box-shadow: 0 0 20px 0px #00000047;
+	}
+	.card-collaps-title-line:active
+	{
+	background: #276db4;
+	color: white;
+	}
+	.card-collaps-title-line {
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: #83868c;
+	background-color:#eff2f7;
+	padding: 10px 20px;
+	padding-left: 40px;
+	margin: 0;
+	cursor: pointer;
+	transition: background-color 0.11s ease-in-out;
+	position: relative;
+	}
+	.card-collaps-offer-content
+	{
+	font-weight: 400;
+	padding: 10px 20px;
+	border: 1px solid $secondary;
+	border-top-width: 0;
+	background-color: white;
+	}
+	.banner-card-box
+	{
+		border-radius: 10px;
+		box-shadow: 0 0 20px 0px #00000047;
+		z-index: 1;
+		padding: 10px;
+	}
+	.banner-card-bottom-text
+	{
+		color: #13287d;
+		font-weight: bold;
+		font-size: 1em;
+		margin-bottom: 10px;
+	}
+	.banner-card-header
+	{
+		color: #13287d;
+		font-weight: bold;
+	}
+	.banner-card span
+	{
+		color: #e3823f;
+		font-weight: bold;
+	}
+	.banner-text
+	{
+		padding-top: 15%;
+	}
+	.banner-text .bnr-btn
+	{
+		background-color: #ffffff;
+	    padding: 10px 50px 10px 50px;
+	    border-radius: 25px;
+	    border:0px;
+	    text-align: center;
+	    color: #e3823f;
+	    font-weight: 700;
+	    font-size: 20px;
+	    cursor: pointer;
+	    outline: none;
+	    transition: transform .15s ease-in-out;
+	}
+	.banner-text .bnr-btn:hover
+	{
+	    text-decoration: none;
+	    transform: scale(1.1);
+	    box-shadow: 0 0 20px 0px #00000047;
+	}
+	.banner-card
+	{
+		margin-top: 8%;
+	}
+
+	/*Two Service section css*/
+	.two-service-learn-more
+	{
+		background-color: #fd8733;
+	    padding: 10px 30px 10px 30px;
+	    border-radius: 25px;
+	    border:0px;
+	    text-align: center;
+	    color: white;
+	    font-weight: 700;
+	    font-size: 15px;
+	    cursor: pointer;
+	    outline: none;
+	    transition: transform .15s ease-in-out;
+	}
+	.two-service-learn-more:hover
+	{
+		text-decoration: none;
+	    transform: scale(1.1);
+	    box-shadow: 0 0 20px 0px #00000047;
+	}
+
+	/*three section css*/
+	.three-service-card
+	{
+		transition: transform .15s ease-in-out;
+	}
+	.three-service-card:hover
+	{
+		text-decoration: none;
+	    transform: scale(1.1);
+	    /*background-color: #276db4;*/
+	    box-shadow: 0 0 20px 0px #00000047;
+	}
+
+	/**/
+
+	/*header ribbon css*/
+	.header-ribbon
+	{
+		background-color: #13287d;
+		color: white;
+		padding: 0px !important;
+	}
+	.banner
+	{
+		background-image: url(./src/image/header.jpg);
+		background-size: 100% 100%;
+		height: 650px;
+		width: 100%;
+	}
+	.copyright
+	{
+		padding:1px;
+		margin-bottom: 0px;
+		background-color: #000000;
+		width: 100%;
+	}
+	.carousel
+	{
+		padding-bottom: 5%;
+	}
+	.get-in-touch-form
+	{
+		margin-top: -100px;
+	}
+	.form-btn
+	{
+		background-color: #276db4;
+	    padding: 10px 50px 10px 50px;
+	    border-radius: 25px;
+	    border:0px;
+	    text-align: center;
+	    color: rgb(255, 255, 255);
+	    font-weight: 700;
+	    font-size: 15px;
+	    transition: transform .15s ease-in-out;
+	    outline: none;
+	    cursor: pointer;
+	}
+	.form-btn:hover
+	{
+		text-decoration: none;
+	    transform: scale(1.1);
+	    box-shadow: 0 0 20px 0px #00000047;
+	}
+	.two-service h1
+	{
+		color: #13287d;
+		font-weight: bold;
+	}
+	.main-header
+	{
+		color: #13287d;
+		font-weight: bold;
+	}
+	.super-header
+	{
+		color: #fd8733;
+		font-weight: bold;
+		font-size: 1em;
+	}
+	.mid
+	{
+		background-color:#276db4;
+		color: white; 
+	}
+
+	.related-service
+	{
+		background-color: #eff2f7;
+
+	}
+	.service-three
+	{
+		background-color: #eff2f7;
+		padding-bottom: 4%;
+	}
+	.happy-client
+	{
+		background-color:#276db4; 
+	}
+	.ask-question
+	{
+		margin-bottom: -50px;
+		position: relative;
+	}
+ .learn-more
+    {
+    background-color:  #fd8733;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    border:0px;
+    margin-right:5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 15px;
+    }
+    .content
+    {
+    	color: grey;
+    }
+    .subject-header
+    {
+    	color: #13287d;
+    }
+    .arrow
+    {
+    	color: #02264a;
+    }
+    .get-in-touch
+    {
+    	background-image: url('./src/image/org-btm-bg.jpg');
+    }
+
+</style>
 <!-- JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dist/js/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script>
+   (function($){
+	   "use strict";
+	   $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+	   $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+   })	
+   (jQuery);
+</script>
+
 </body>
 </html>
